@@ -1,0 +1,31 @@
+.container {
+  height: 500px;
+  display: grid;
+  /*grid-template-columns: repeat(5, 1fr);*/
+  /*level 5*/
+  grid-template-columns:150px auto; 
+  grid-template-rows: 1fr 1fr 5fr 1fr;
+
+}
+
+#navbar {
+  grid-column-start: span 5;
+}
+
+#sidebar {
+  writing-mode: vertical-rl;
+  grid-row-start: span 2;
+}
+
+#title {
+  grid-column-start: span 4;
+}
+
+
+#content {
+  grid-column-start: span 4;
+}
+
+#footer {
+  grid-column-start: span 5;
+}

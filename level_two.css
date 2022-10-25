@@ -1,0 +1,6 @@
+.container {
+  height: 400px;
+  display: grid;
+  grid-template-rows: repeat(2, .5fr);
+  grid-template-columns: repeat(5, 1fr);
+}
